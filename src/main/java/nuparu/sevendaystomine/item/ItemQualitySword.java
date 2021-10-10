@@ -46,7 +46,7 @@ public class ItemQualitySword extends ItemSword implements IQuality {
 		this.maxStackSize = 1;
 		this.setMaxDamage(material.getMaxUses());
 		this.setCreativeTab(CreativeTabs.COMBAT);
-		this.attackDamage = (3.0F + material.getAttackDamage()) / 2;
+		this.attackDamage = 3.0F + material.getAttackDamage();
 		speed = ItemQualityTool.DEFAULT_SPEED;
 	}
 

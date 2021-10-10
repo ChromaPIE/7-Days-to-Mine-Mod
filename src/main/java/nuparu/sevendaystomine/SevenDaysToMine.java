@@ -178,26 +178,26 @@ public class SevenDaysToMine {
 		}
 	}).setRelevantEnchantmentTypes(ModEnchantments.GUNS);
 	
-	public static final Item.ToolMaterial SMALL_TOOLS = EnumHelper.addToolMaterial("small_tools", 0, 300, 0.5f, 15, 2);
+	public static final Item.ToolMaterial SMALL_TOOLS = EnumHelper.addToolMaterial("small_tools", 0, 300, 0.5f, 7.5f, 2);
 
-	public static final Item.ToolMaterial STONE_TOOLS = EnumHelper.addToolMaterial("stone_tools", 1, 100, 3.5f, 5, 2);
-	public static final Item.ToolMaterial BONE_TOOLS = EnumHelper.addToolMaterial("bone_tools", 1, 100, 2f, 6, 2);
-	public static final Item.ToolMaterial CRUDE_TOOLS = EnumHelper.addToolMaterial("crude_tools", 1, 60, 2f, 8, 2);
-	public static final Item.ToolMaterial WOODEN_TOOLS = EnumHelper.addToolMaterial("wooden_tools", 1, 180, 2f, 14, 2);
+	public static final Item.ToolMaterial STONE_TOOLS = EnumHelper.addToolMaterial("stone_tools", 1, 100, 3.5f, 2.5f, 2);
+	public static final Item.ToolMaterial BONE_TOOLS = EnumHelper.addToolMaterial("bone_tools", 1, 100, 2f, 3, 2);
+	public static final Item.ToolMaterial CRUDE_TOOLS = EnumHelper.addToolMaterial("crude_tools", 1, 60, 2f, 4, 2);
+	public static final Item.ToolMaterial WOODEN_TOOLS = EnumHelper.addToolMaterial("wooden_tools", 1, 180, 2f, 7, 2);
 	public static final Item.ToolMaterial WOODEN_REINFORCED_TOOLS = EnumHelper
-			.addToolMaterial("wooden_reinforced_tools", 1, 200, 2f, 18, 2);
-	public static final Item.ToolMaterial BARBED_TOOLS = EnumHelper.addToolMaterial("barbed_tools", 1, 220, 2f, 22, 2);
-	public static final Item.ToolMaterial SPIKED_TOOLS = EnumHelper.addToolMaterial("spiked_tools", 1, 250, 2f, 26, 2);
-	public static final Item.ToolMaterial COPPER_TOOLS = EnumHelper.addToolMaterial("copper_tools", 0, 100, 5.2f, 17,
+			.addToolMaterial("wooden_reinforced_tools", 1, 200, 2f, 9, 2);
+	public static final Item.ToolMaterial BARBED_TOOLS = EnumHelper.addToolMaterial("barbed_tools", 1, 220, 2f, 11, 2);
+	public static final Item.ToolMaterial SPIKED_TOOLS = EnumHelper.addToolMaterial("spiked_tools", 1, 250, 2f, 13, 2);
+	public static final Item.ToolMaterial COPPER_TOOLS = EnumHelper.addToolMaterial("copper_tools", 0, 100, 2.6f, 17,
 			2);
-	public static final Item.ToolMaterial SCRAP_TOOLS = EnumHelper.addToolMaterial("scrap_tools", 0, 125, 4f, 18, 2);
-	public static final Item.ToolMaterial BRONZE_TOOLS = EnumHelper.addToolMaterial("bronze_tools", 1, 250, 6f, 20, 2);
-	public static final Item.ToolMaterial IRON_TOOLS = EnumHelper.addToolMaterial("iron_tools", 2, 300, 8.2f, 24, 2);
-	public static final Item.ToolMaterial STEEL_TOOLS = EnumHelper.addToolMaterial("steel_tools", 3, 40, 11f, 28, 2);
-	public static final Item.ToolMaterial ARMY_TOOLS = EnumHelper.addToolMaterial("army_tools", 1, 350, 2f, 26, 2);
-	public static final Item.ToolMaterial MACHETE = EnumHelper.addToolMaterial("machete", 1, 200, 2f, 28, 2);
-	public static final Item.ToolMaterial SLEDGEHAMMER = EnumHelper.addToolMaterial("sledgehammer", 1, 40, 11f, 30, 2);
-	public static final Item.ToolMaterial AUGER = EnumHelper.addToolMaterial("auger", 4, 1200, 26F, 24, 0);
+	public static final Item.ToolMaterial SCRAP_TOOLS = EnumHelper.addToolMaterial("scrap_tools", 0, 125, 4f, 9, 2);
+	public static final Item.ToolMaterial BRONZE_TOOLS = EnumHelper.addToolMaterial("bronze_tools", 1, 250, 6f, 10, 2);
+	public static final Item.ToolMaterial IRON_TOOLS = EnumHelper.addToolMaterial("iron_tools", 2, 300, 8.2f, 12, 2);
+	public static final Item.ToolMaterial STEEL_TOOLS = EnumHelper.addToolMaterial("steel_tools", 3, 40, 11f, 14, 2);
+	public static final Item.ToolMaterial ARMY_TOOLS = EnumHelper.addToolMaterial("army_tools", 1, 350, 2f, 13, 2);
+	public static final Item.ToolMaterial MACHETE = EnumHelper.addToolMaterial("machete", 1, 200, 2f, 14, 2);
+	public static final Item.ToolMaterial SLEDGEHAMMER = EnumHelper.addToolMaterial("sledgehammer", 1, 40, 11f, 15, 2);
+	public static final Item.ToolMaterial AUGER = EnumHelper.addToolMaterial("auger", 4, 1200, 26F, 12, 0);
 
 	public static final ItemArmor.ArmorMaterial CLOTHING = EnumHelper.addArmorMaterial("clothing",
 			"sevendaystomine:clothing", 6, new int[] { 1, 2, 2, 1 }, 0, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0);
